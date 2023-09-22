@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    line-height: 60px;
+}
+
+header {
+    font-size: 1.5rem;
+    color:black;
+    padding: 0.5em 1em;
+    height: 60px;
+    background-color: white;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color:black;
+    background-color:cornflowerblue;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
